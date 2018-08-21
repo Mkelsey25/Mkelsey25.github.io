@@ -59,22 +59,31 @@ button {
 }
 
 
-@media (min-width: 576px) { 
-  
 
+@media (min-width: 576px) {
+    .card {
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
 }
-
 
 @media (min-width: 768px) {
-
+    .card {
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
 }
-
 
 @media (min-width: 992px) {
-
+    .card {
+        padding-top: 20%;
+        margin-bottom: 20%;
+    }
 }
 
-
 @media (min-width: 1200px) {
-
+    .card {
+        padding-top: 20%;
+        margin-bottom: 20%;
+    }
 }
