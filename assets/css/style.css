@@ -40,12 +40,14 @@ height: 150px;
 .brand-statement {
 font-size: 18px;
 padding-top: 5%;
+
 }
 img {
 padding-top: 5%;
 height: 150px;
 width: 150px;
 padding-bottom: 5%;
+object-fit: contain;
 }
 footer {
 text-align: center;
@@ -59,16 +61,14 @@ button {
     font-weight: 900; 
     margin-bottom: 10px !important;
 }
-.card-img-top {
-    
-}
-
-
 
 @media (min-width: 576px) {
     .card {
         padding-top: 5%;
         margin-bottom: 5%;
+    }
+    .col-md-4 {
+        text-align: center;
     }
 }
 
@@ -76,6 +76,9 @@ button {
     .card {
         padding-top: 5%;
         margin-bottom: 5%;
+    }
+    .col-md-4 {
+        text-align: center;
     }
 }
 
