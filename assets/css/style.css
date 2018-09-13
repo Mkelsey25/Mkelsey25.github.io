@@ -63,7 +63,39 @@ a {
     margin-bottom: 10px !important;
 }
 
+@media (min-width: 320px) {
+.name{
+    font-size: 4rem;
+}
+.card{
+    margin-bottom: 5%;
+}
+.gameName, a, .card-body{
+    font-size: 2rem;
+}
+}
+@media (min-width: 375px) {
+    .name{
+        font-size: 4rem;
+    }
+    .card{
+        margin-bottom: 5%;
+    }.gameName, a, .card-body{
+        font-size: 3rem;
+    }
 
+}
+@media (min-width: 425px) {
+    .name{
+        font-size: 4rem;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    .gameName, a, .card-body{
+        font-size: 3rem;
+    }
+}
 @media (min-width: 576px) {
 .col-md-2 {
     text-align: center;
