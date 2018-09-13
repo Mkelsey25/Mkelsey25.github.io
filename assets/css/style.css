@@ -7,11 +7,8 @@
     width: 300px;
 }
 .card {
-    width: 15rem;
     text-align: center;
-    padding-top: 20%;
     background-color: #FDC7C7;
-    margin-bottom: 20%;
 }
 .card-text, .brand-statement {
     font-family: 'Cantarell', sans-serif;
@@ -21,9 +18,10 @@
     font-weight: bolder; 
     color: black;  
 }
-.card-body {
-    margin-bottom: 10%;
-
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #banner-1 {
     background-color: #FDC7C7;
@@ -64,46 +62,47 @@ a {
     font-weight: bold;
     margin-bottom: 10px !important;
 }
-button {
-    font-family: 'Cantarell', sans-serif;
-    font-weight: 900; 
-    margin-bottom: 10px !important;
-}
+
 
 @media (min-width: 576px) {
-    .card {
-        padding-top: 5%;
-        margin-bottom: 5%;
-        /*background-color: red;*/
-        
-
-}
 .col-md-2 {
     text-align: center;
+}
+.gameName, a, .card-body{
+    font-size: 3rem;
+}
+.card{
+    margin-bottom: 5%;
 }
 }
 
 @media (min-width: 768px) {
-    .card {
-        padding-top: 5%;
+    .gameName, a, .card-body{
+        font-size: 1rem;
+    }
+    .card{
         margin-bottom: 5%;
-        /*background-color: blue;*/
     }
 
 }
 
 @media (min-width: 992px) {
-    .card {
-        padding-top: 20%;
-        margin-bottom: 20%;
-        /*background-color: orange;*/
+    .gameName, a, .card-body{
+        font-size: 1rem;
     }
+    .card{
+        margin-bottom: 5%;
+        font-size: 1rem;
+    }
+
 }
 
 @media (min-width: 1200px) {
-    .card {
-        padding-top: 20%;
-        margin-bottom: 20%;
-        /*background-color: yellow;*/
+    .gameName, a, .card-body{
+        font-size: 1rem;
+    }
+    .card{
+        margin-bottom: 5%;
+        font-size: 1rem;
     }
 }
