@@ -64,6 +64,9 @@ a {
     font-weight: bold;
     margin-bottom: 10px !important;
 }
+a:hover {
+    color: #FF0000;
+}
 
 @media (min-width: 320px) {
 .name{
