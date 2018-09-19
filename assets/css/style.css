@@ -5,6 +5,7 @@
 .profile-picture {
     height: 300px;
     width: 300px;
+    padding-top: 5%;
 }
 .card {
     text-align: center;
@@ -52,6 +53,7 @@ img {
     padding-bottom: 5%;
     object-fit: contain;
 }
+
 footer {
     text-align: center;
 }
